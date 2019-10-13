@@ -1,25 +1,35 @@
 h1 {
   font-size: 60pt;
   color: white;
-  font-family: Helvetica;
+  font-family: "Indie Flower", cursive;
   text-align: center;
   background: black;
-
-  width: 500px;
-  display: inline-block;
+  display: inline;
 }
 nav {
-  display: inline-block;
-
-  width: 300px;
+  float: right;
+  font-family: sans-serif;
+  font-size: 14pt;
+}
+ul {
+  list-style-type: none;
 }
 .opening {
-  position: relative;
-  width: 100%;
+  font-style: italic;
+  text-align: center;
+  font-family: sans-serif;
 }
-.para2 {
-  position: relative;
-  width: 100%;
+.intro {
+  text-align: center;
+  font-style: italic;
+  font-family: sans-serif;
+}
+.para {
+  font-family: sans-serif;
+}
+.copyright {
+  font-family: sans-serif;
+  font-size: 8pt;
 }
 .rectangle {
   display: inline-block;
