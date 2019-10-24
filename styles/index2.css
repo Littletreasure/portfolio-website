@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+body {
+  background: rgb(211, 211, 208);
+}
+header {
+  display: grid;
+  grid-template-columns: 6fr 1fr;
+  background: rgb(63, 63, 63);
+}
+h1 {
+  font-size: 60pt;
+  color: white;
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+  background: rgb(27, 27, 27);
+}
+nav {
+  font-family: sans-serif;
+  font-size: 15pt;
+  text-decoration: none;
+  justify-self: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  background: rgb(63, 63, 63);
+}
+
+nav a:link {
+  text-decoration: none;
+  color: white;
+}
+nav a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+#game {
+  width: 25%;
+  margin: 10px;
+}
+.main {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.main p {
+  margin: 20px;
+}
+.mainAbout {
+  display: grid;
+  grid-template-rows: 1fr 5fr 4fr;
+
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.mainAbout p {
+  margin: 20px;
+}
+h2 {
+  font-family: "Indie Flower", cursive;
+  font-size: 40px;
+  justify-self: center;
+  margin-top: 10px;
+}
+.mainAbout img {
+  justify-self: center;
+  margin-bottom: 10px;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+footer img {
+  width: 32px;
+  height: 32px;
+  margin: 10px;
+}
+.copyright {
+  margin-left: 20px;
+}
