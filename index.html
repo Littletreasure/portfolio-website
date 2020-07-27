@@ -6,89 +6,194 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>My Portfolio Site</title>
     <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
-      integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
-      crossorigin="anonymous"
-    />
-    <link
       href="https://fonts.googleapis.com/css?family=Indie+Flower|Mansalva&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
   </head>
+
   <body>
-    <header class="container">
-      <div class="row">
-        <h1 class="col-sm-8">Ruth's Portfolio Site</h1>
-        <p class="col-sm-2"></p>
-
-        <nav class="col-sm-2">
-          <ul>
-            <li>
-              <a href="index.html"><b>Home</b></a>
-            </li>
-
-            <li>
-              <a href="about.html">About Me</a>
-            </li>
-          </ul>
-        </nav>
+    <header>
+      <div class="header">
+        <h1>Ruth's Portfolio Site</h1>
       </div>
+
+      <nav>
+        <div>
+          <a href="index.html"><b>Home</b></a>
+        </div>
+        <div>
+          <a href="about.html">About Me</a>
+        </div>
+      </nav>
     </header>
-    <hr />
 
-    <div class="container">
-      <p class="row">
-        Welcome to my website. As my skills develop I hope to improve this site
-        over time.
-      </p>
-
-      <p class="row">
-        I have just started working with React and the following screenshot is
-        from a noughts and crosses game I created with a fellow student. The
-        code can be found on
-        <a href="https://github.com/Littletreasure/fe-react-app" target="_blank"
-          >Github</a
-        >.
-      </p>
-      <a href="./images/nc screenshot.png" target="_blank"
-        ><img id="game" src="./images/nc screenshot.png"
-      /></a>
-    </div>
-
-    <footer class="container">
-      <div class="row">
-        <p class="col-sm-4">&copy Ruth Sargent 2019</p>
-        <ul class="col-sm-8">
-          <li class="col-sm-1">
-            <a href="mailto:ruth_sargent@yahoo.co.uk"
-              ><img src="./images/Email.png"
-            /></a>
-          </li>
-          <li class="col-sm-1">
-            <a href="https://twitter.com/littletreasure2"
-              ><img src="./images/Twitter.png"
-            /></a>
-          </li>
-          <li class="col-sm-1">
-            <a href="https://www.instagram.com/ruth_littletreasure/"
-              ><img src="./images/Instagram.png"
-            /></a>
-          </li>
-          <li class="col-sm-1">
+    <main class="main">
+      <div class="summary">
+        <p>
+          Welcome to my portfolio website. I have recently graduated from
+          <a href="https://northcoders.com" target="_blank">Northcoders</a>
+          Coding Bootcamp and I am now looking for my first job as a software
+          developer.
+        </p>
+        <div class="nc1">
+          <a href="./images/IMG_5931.jpg" target="_blank"
+            ><img id="nc1" src="./images/IMG_5931.jpg" /></a
+          >My fellow Northcoders
+        </div>
+        <p>
+          Please see below for the projects I have created or contributed to
+          during my time at Northcoders.
+        </p>
+      </div>
+      <div class="projects">
+        <div class="project">
+          <p>
+            This was a noughts and crosses game I created with a fellow student
+            when starting to use React. The code can be found on
             <a
-              href="https://www.linkedin.com/in/ruth-sargent-401197196/"
+              href="https://github.com/Littletreasure/fe-react-app"
               target="_blank"
-              ><img src="./images/LinkedIn.png"
+              >Github</a
+            >.
+          </p>
+
+          <a href="./images/nc screenshot.png" target="_blank"
+            ><img id="thumbnail" src="./images/nc screenshot.png"
+          /></a>
+        </div>
+        <div class="project">
+          <p>
+            NC-News was a project created during the backend and frontend
+            sections of the Northcoders training. The code can be found on
+            <a href="https://github.com/Littletreasure/nc-news" target="_blank"
+              >Github</a
+            >.
+          </p>
+
+          <a href="./images/NCNews1.png" target="_blank"
+            ><img id="thumbnail" src="./images/NCNews1.png"
+          /></a>
+        </div>
+        <div class="project">
+          <p>
+            This was the final project created by myself and four fellow
+            students. It is an app designed to create an Augmented Reality tour
+            of historical Manchester music locations. The code can be found on
+            <a href="https://github.com/Luke9090/proj-ar-tour" target="_blank"
+              >Github</a
+            >.
+          </p>
+
+          <a href="./images/manchestar.jpg" target="_blank"
+            ><img id="thumbnail" src="./images/manchestar.jpg"
+          /></a>
+        </div>
+      </div>
+
+      <div class="summary">
+        <p>
+          Since leaving Northcoders I have been practicing React and React
+          Native creating a couple of apps for my own benefit. One to keep track
+          of all my books and a newer version to also keep track of films and
+          computer games. I have also created a basic website to access the
+          Chuck Norris joke api - this was for a tech test. I have recently
+          designed a website to access the Animal Crossing api. The
+          functionality of this site is now working but the design is still in
+          progress.
+        </p>
+        <p>
+          I have been exploring other technologies recently and have watched a
+          few tutorials on React Redux and React Hooks. I have completed the
+          Python 2 and PHP courses on Codecademy and I am currently working
+          through the SQL course to refresh my knowledge. I plan to explore
+          Redux and React Hooks more and also have a look at Typescript.
+        </p>
+      </div>
+      <div class="projects">
+        <div class="project">
+          <p>
+            This is the app for tracking my collection of books. It was created
+            in React Native. The code can be found on
+            <a href="https://github.com/Littletreasure/bookApp" target="blank"
+              >Github</a
+            >. The backend is hosted on heroku.
+          </p>
+          <p>
+            <a href="./images/IMG_9595.jpg" target="_blank"
+              ><img id="thumbnail" src="./images/IMG_9595.jpg"
             /></a>
-          </li>
-          <li class="col-sm-1">
-            <a href="https://github.com/Littletreasure" target="_blank"
-              ><img src="./images/GitHub.png"
+          </p>
+        </div>
+        <div class="project">
+          <p>
+            This is the website for accessing the Chuck Norris joke api. It was
+            created in React. The code can be found on
+            <a
+              href="https://github.com/Littletreasure/chuck_test_fe"
+              target="_blank"
+              >Github</a
+            >.
+          </p>
+          <p>
+            <a href="./images/chuck.png" target="_blank"
+              ><img id="thumbnail" src="./images/chuck.png"
             /></a>
-          </li>
-        </ul>
+          </p>
+        </div>
+        <div class="project">
+          <p>
+            This is my Animal Crossing website. It was created using React. The
+            code can be found on
+            <a href="https://github.com/Littletreasure/AC_Web" target="_blank"
+              >Github</a
+            >. The original api can be found here
+            <a href="http://acnhapi.com/" target="blank">AC api</a>.
+          </p>
+          <p>
+            <a href="./images/ac_screen.png" target="_blank"
+              ><img id="thumbnail" src="./images/ac_screen.png"
+            /></a>
+            <a href="./images/ac_screen2.png" target="_blank"
+              ><img id="thumbnail" src="./images/ac_screen2.png"
+            /></a>
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p class="copyright">&copy Ruth Sargent 2019</p>
+      <div class="footer">
+        <div>
+          <a href="mailto:ruth_sargent@yahoo.co.uk"
+            ><img src="./images/Email.png"
+          /></a>
+        </div>
+        <div>
+          <a href="https://twitter.com/littletreasure2" target="_blank"
+            ><img src="./images/Twitter.png"
+          /></a>
+        </div>
+        <div>
+          <a
+            href="https://www.instagram.com/ruth_littletreasure/"
+            target="_blank"
+            ><img src="./images/Instagram.png"
+          /></a>
+        </div>
+        <div>
+          <a
+            href="https://www.linkedin.com/in/ruth-sargent-401197196/"
+            target="_blank"
+            ><img src="./images/LinkedIn.png"
+          /></a>
+        </div>
+        <div>
+          <a href="https://github.com/Littletreasure" target="_blank"
+            ><img src="./images/GitHub.png"
+          /></a>
+        </div>
       </div>
     </footer>
   </body>
